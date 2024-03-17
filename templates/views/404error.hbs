@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+    {{>navbar}}
+     <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!--rigth side div-->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <img src="images/404.gif" class="img-fluid" style="margin-top: 8rem;">
+                     
+                        <p>Something <span style="color: #0097e6;">Went</span> Wrong</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+    
+</html>
